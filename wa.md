@@ -1,5 +1,5 @@
 Kurzbeschreibung ypid:
-Robin `ypid` Schneider ist aktiver Mapper seit 2013 und hat sein Hauptaugenmerk auf den Bereich Öffnungszeiten gelegt, denn er seit 2013 maßgeblich voranbringt.
+Robin `ypid` Schneider ist aktiver Mapper seit 2013 und hat sein Hauptaugenmerk auf den Bereich Öffnungszeiten gelegt, denn er seit 2013 maßgeblich vortreibt.
 
 Mögliche Bilder (nach Präferenz geordnet):
 * https://secure.flickr.com/photos/b3d_/4754465604
@@ -79,4 +79,5 @@ Für denn Fall, dass ich denn einen oder anderen der noch nicht so viel mit Öff
 [Öffnungszeiten Karte]: http://openingh.openstreetmap.de/
 
 ## FIXME:
+* Spellchecking
 * "man" durch neutrale Form ersetzen?
