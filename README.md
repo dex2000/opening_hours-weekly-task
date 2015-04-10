@@ -1,11 +1,9 @@
-Kurzbeschreibung ypid:
-Robin `ypid` Schneider ist aktiver Mapper seit 2013 und hat sein Hauptaugenmerk auf den Bereich Öffnungszeiten gelegt, denn er seit 2013 maßgeblich vortreibt.
+# Wochenaufgabe: Öffnungszeiten
 
+## Bilder
 Mögliche Bilder (nach Präferenz geordnet):
 * https://secure.flickr.com/photos/b3d_/4754465604
 * https://secure.flickr.com/photos/gruenenrw/6765554553
-
-# Wochenaufgabe: Öffnungszeiten
 
 Wer kennt es nicht: Man nimmt denn langen Weg zum Lieblingsrestaurant auf sich, nur um auf verschlossene Türen zu stoßen, weil heute Ruhetag ist oder in selteneren Fällen, der Feiertag auf einen Samstag fällt oder ähnliches. Um dieses Problem anzugehen wurde in OpenStreetMap seit circa 2008 der Tag „[opening_hours]“ etabliert. Mit diesem Tag lassen sich in maschienlesbarer Form Öffnungszeiten in OSM eintragen, sodass ein scheller Blick beispielsweise auf die [Öffnungszeiten Karte] ausreicht, um festzustellen und wann eine Einrichtung geöffnet hat und wielange. Diese Information hat sich sicher schon für viele als Nützlich erwiesen und deshalb hat das Mapping Schema und die Anzahl der Öffnungszeiten in den letzten Jahren große Schritte gemacht.
 
@@ -47,7 +45,7 @@ Um denn Umgang mit den Öffnungszeiten zu vereinfachen, wurden eine reihe von We
 
 * [Abfragen für Öffnungszeiten mit PH/SH oder ohne](http://forum.openstreetmap.org/viewtopic.php?pid=495797#p495797)
 
-# Auswertung
+## Auswertung
 
 In der Vorbereitung zu dieser Wochenaufgabe wurde eine statistische Auswertung geschaffen, die nicht nur die Anzahl der Öffnungszeiten auswertet, sondern auch wieviele Werte maschinenlesbar sind und diese Werte als Graph darstellt. Die Daten für die weltweite Statistik stammen von [Taginfo](https://taginfo.openstreetmap.org/). Um eine regionale Auswertung zu haben, wurde die Statistik noch um eine Overpass API Anbindung erweitert.
 
@@ -81,3 +79,6 @@ Für denn Fall, dass ich denn einen oder anderen der noch nicht so viel mit Öff
 ## FIXME:
 * Spellchecking
 * "man" durch neutrale Form ersetzen?
+
+# Kurzbeschreibung ypid:
+Robin `ypid` Schneider ist aktiver Mapper seit 2013 und hat sein Hauptaugenmerk auf den Bereich Öffnungszeiten gelegt, denn er seit 2013 maßgeblich vortreibt.
