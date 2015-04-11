@@ -1,10 +1,10 @@
 # Wochenaufgabe: Öffnungszeiten
 
-Mögliche Bilder (nach Präferenz geordnet):
+Mögliche Bilder:
 * https://secure.flickr.com/photos/b3d_/4754465604
 * https://secure.flickr.com/photos/gruenenrw/6765554553
 
-Wer kennt es nicht: Man nimmt den langen Weg zum Lieblingsrestaurant auf sich, nur um auf verschlossene Türen zu stoßen, weil heute Ruhetag ist oder in selteneren Fällen, der Feiertag auf einen Samstag fällt oder Ähnliches. Um dieses Problem anzugehen, wurde in OpenStreetMap seit circa 2008 der Tag [`opening_hours`][DE:Key:opening_hours] etabliert. Mit diesem Tag lassen sich in maschinenlesbarer Form Öffnungszeiten in OSM eintragen, sodass ein schneller Blick beispielsweise auf [osm24.eu] ausreicht, um festzustellen, wann eine Einrichtung geöffnet hat und wielange (dazu bitte die Legends auf [osm24.eu] unten rechts beachten). Diese Information hat sich sicher schon für viele als nützlich erwiesen und deshalb hat das Mapping Schema und die Anzahl der Öffnungszeiten in den letzten Jahren [große Schritte][stats] gemacht.
+Wer kennt es nicht: Man nimmt den langen Weg zum Lieblingsrestaurant auf sich, nur um auf verschlossene Türen zu stoßen, weil heute Ruhetag ist oder in selteneren Fällen, der Feiertag auf einen Samstag fällt oder Ähnliches. Um dieses Problem anzugehen, wurde in OpenStreetMap seit circa 2008 der Tag [`opening_hours`][DE:Key:opening_hours] etabliert. Mit diesem Tag lassen sich in maschinenlesbarer Form Öffnungszeiten in OSM eintragen, sodass ein schneller Blick beispielsweise auf [osm24.eu] ausreicht, um festzustellen, wann eine Einrichtung geöffnet hat und wie lange (dazu bitte die Legende auf [osm24.eu] unten rechts beachten). Diese Information hat sich sicher schon für viele als nützlich erwiesen und deshalb hat das Tagging Schema und die Anzahl der Öffnungszeiten in den letzten Jahren [große Schritte][stats] gemacht.
 
 Die Bestrebung, die Realität so genau wie möglich in OSM abbilden zu wollen, trifft definitiv auch das Eintragen der Öffnungszeiten zu. So ist das Schema mittlerweile sehr ausgefeilt und es lässt sich quasi alles taggen. Dies geht von einfachen Wochenplänen über die Angabe von anderen Zeiten für den ersten Montag im Monat bis hin zum taggen von Feiertagen und Schulferien oder die Angabe der Öffnungszeiten in Abhängigkeit zum lokalen Sonnenaufgang. So kompliziert die Öffnungszeiten auch sein mögen, es gibt ziemlich sicher ein Tagging Schema dafür :)
 
@@ -16,12 +16,12 @@ Zu beginn ein kleines Beispiel, wie es auch auf der [Wiki Seite](https://wiki.op
 
 Bedeutung: Geöffnet Montag bis Samstag von 10 bis 20 Uhr, außer dienstags.
 
-Wie schon geschrieben wurde in den letzten Jahren ein weitreichendes Schema entwickelt, um Öffnungszeiten einzutragen und, was noch wichtiger ist, diese auch sinnvoll auswerten zu können. Denn was nützt es, wenn die eingetragenen Öffnungszeiten nicht auswertbar sind? Das lässt sich mit anderen Tags Vergleich. Hier sollte ebenfalls auf ein einheitliches Schema geachtet werden, um mit den Daten später etwas anfangen zu können (beispielsweise eine Karte zu generieren). Es wurde versucht, das Schema möglichst einfach und lesbar zu halten, zugleich muss ich aber zugeben, dass es eine gewisse Komplexität erreicht hat und auch von erfahrenen Mappern teils falsch verstanden wird. Um also den oben genanten Ruhetag oder Feiertag richtig einzutragen, ist etwas Übung notwendig. Für den konkreten Aufbau des Schemas verweise ich auf die [Wiki Seite](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Beispiele), auf der viele Mapper und ich das Schema beschrieben haben. Für die sehr fortgeschrittenen Mapper gibt es auch noch eine [formale Spezifikation](https://wiki.openstreetmap.org/w/index.php?title=Key:opening_hours/specification) in der [Netzwolf](http://www.netzwolf.info/) und [ich] die „Sprache“ für die Öffnungszeiten spezifiziert haben beziehungsweise dies immer noch tun.
+Wie schon geschrieben wurde in den letzten Jahren ein weitreichendes Schema entwickelt, um Öffnungszeiten einzutragen und, was noch wichtiger ist, diese auch sinnvoll auswerten zu können. Denn was nützt es, wenn die eingetragenen Öffnungszeiten nicht auswertbar sind? Das lässt sich mit anderen Tags Vergleich. Hier sollte ebenfalls auf ein einheitliches Schema geachtet werden, um mit den Daten später etwas anfangen zu können (beispielsweise eine Karte zu generieren). Es wurde versucht, das Schema möglichst einfach und lesbar zu halten, zugleich muss ich aber zugeben, dass es eine gewisse Komplexität erreicht hat und auch von erfahrenen Mappern teils falsch verstanden wird. Um also den oben genannten Ruhetag oder Feiertag richtig einzutragen, ist etwas Übung notwendig. Für den konkreten Aufbau des Schemas verweise ich auf die [Wiki Seite](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Beispiele), auf der viele Mapper und ich das Schema beschrieben haben. Für die sehr fortgeschrittenen Mapper gibt es auch noch eine [formale Spezifikation](https://wiki.openstreetmap.org/w/index.php?title=Key:opening_hours/specification) in der [Netzwolf](http://www.netzwolf.info/) und [ich] die „Sprache“ für die Öffnungszeiten spezifiziert haben beziehungsweise dies immer noch tun.
 
 ## Kurzum, worauf ist zu achten?
 
 * Bitte nur Öffnungszeiten hochladen, die [maschinenlesbar][Auswertewerkzeug] sind.
-* Ferien werden nicht automatisch an die Öffnungszeiten gehängt. Diese müssen also explizit angegeben werden. Siehe im [Wiki](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Elemente).
+* Die meisten Geschäfte haben an gesetzlichen Feiertagen geschlossen, dies muss über die Angabe von `PH off` explizit angegeben werden. Siehe im [Wiki](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Elemente).
 
 ## Werkzeuge:
 
@@ -63,7 +63,7 @@ Für den Fall, dass ich den einen oder anderen, der noch nicht so viel mit Öffn
 * Testen mit dem [Auswertewerkzeug].
 * [Talk Seite im Wiki (auf Englisch)](https://wiki.openstreetmap.org/wiki/Talk:Key:opening_hours).
 * Suche im [Forum] und in der [tagging mailing Liste](https://wiki.openstreetmap.org/wiki/Mailing_lists).
-* Frage stellen auf eine der genanten Kanäle.
+* Frage stellen auf eine der folgenden Kanäle.
 
 ## Kommunikation
 
