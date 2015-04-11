@@ -44,20 +44,20 @@ Um den Umgang mit den Öffnungszeiten zu vereinfachen, wurden eine reihe von Wer
 
 * [Overpass Abfragen für Öffnungszeiten mit PH/SH oder ohne](http://forum.openstreetmap.org/viewtopic.php?pid=495797#p495797)
 
-* Für iD gibt es momentan leider noch keine Hilfe bei der Eingabe von Öffnungszeiten. Deshalb die besondere Bitte an die iD Nutzer, die Öffnungszeiten vor dem hochladen mit dem [Auswertewerkzeug] zu prüfen.
+* Für iD gibt es momentan leider [noch keine Hilfe](https://github.com/openstreetmap/iD/issues/974) bei der Eingabe von Öffnungszeiten. Deshalb die besondere Bitte an die iD Nutzer, die Öffnungszeiten vor dem hochladen mit dem [Auswertewerkzeug] zu prüfen.
 ## Auswertung
 
-In der Vorbereitung zu dieser Wochenaufgabe wurde eine statistische Auswertung geschaffen, die nicht nur die Anzahl der Öffnungszeiten auswertet, sondern auch wie viele Werte maschinenlesbar sind und diese Werte als Graph darstellt. Die Daten für die weltweite Statistik stammen von [Taginfo](https://taginfo.openstreetmap.org). Um eine regionale Auswertung zu haben, wurde die Statistik noch um eine [Overpass API](https://wiki.openstreetmap.org/wiki/DE:Overpass_API) Anbindung erweitert.
+In der Vorbereitung zu dieser Wochenaufgabe wurde eine [statistische Auswertung][stats] geschaffen, die nicht nur die Anzahl der Öffnungszeiten auswertet, sondern auch, wie viele Werte maschinenlesbar sind und diese Werte als Graph darstellt. Die Daten für die weltweite Statistik stammen von [Taginfo](https://taginfo.openstreetmap.org). Um eine regionale Auswertung zu haben, wurde die Statistik noch um eine [Overpass API](https://wiki.openstreetmap.org/wiki/DE:Overpass_API) Anbindung erweitert.
 
 Die Statistik ist [hier][stats] zu finden. Die regionale Auswertung wird im Zeitraum der Wochenaufgabe stündlich aktualisiert.
 
 ## Ziel
 
-Am ersten Tag dieser Wochenaufgabe existierten weltweit [383 000][stats] Öffnungszeiten und es kommen täglich um die 400 neuen hinzu. Mit Eurer Hilfe dürften wir die 400 000er Marke bis zum 03 Mai sicher knacken können, was meint ihr? Zugleich gilt es, die Anzahl der maschinell auswertbaren Öffnungszeiten wieder zu steigern. Diese hat weltweit seit Beginn der statistischen Erhebungen kontinuierlich abnehmend von ursprünglich 97,2 % Auswertequote zu 96,8 %. Das ist zwar nicht viel, aber der Trent geht nun mal in die falsche Richtung ;) Als Grund für die fallende Qualität würde ich OSM Editoren, die keine Unterstützung beim Eingeben von Öffnungszeiten geben, nennen.
+Am ersten Tag dieser Wochenaufgabe existierten weltweit [383 000][stats] Öffnungszeiten und es kommen täglich um die 400 neuen hinzu. Mit Eurer Hilfe dürften wir die 400 000er Marke bis zum 03 Mai sicher knacken können, was meint ihr? Zugleich gilt es, die Anzahl der maschinell auswertbaren Öffnungszeiten wieder zu steigern. Diese hat weltweit seit Beginn der statistischen Erhebungen kontinuierlich abnehmend von ursprünglich 97,2 % Auswertequote zu 96,8 %. Das ist zwar nicht viel, aber der Trent geht nun mal in die falsche Richtung ;) Als Grund für die fallende Qualität würde ich OSM Editoren nennen, die keine Unterstützung beim Eingeben von Öffnungszeiten geben.
 
 ## Fragen und Probleme
 
-Für den Fall, dass ich den einen oder anderen, der noch nicht so viel mit Öffnungszeiten zu tun hatte, mit diesem Beitrag etwas erschlagen habe, möchte ich mich Entschuldigen :) Bei Fragen würde ich Folgendes vorgehen empfehlen:
+Für den Fall, dass ich den einen oder anderen, der noch nicht so viel mit Öffnungszeiten zu tun hatte, mit diesem Beitrag etwas erschlagen habe, möchte ich mich entschuldigen :) Bei Fragen würde ich folgendes Vorgehen empfehlen:
 
 * [Wiki Seite](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours)
 * Testen mit dem [Auswertewerkzeug]
@@ -79,7 +79,6 @@ Für den Fall, dass ich den einen oder anderen, der noch nicht so viel mit Öffn
 [osm24.eu]: http://www.osm24.eu
 
 ## FIXME:
-* Spellchecking
 * "man" durch neutrale Form ersetzen?
 
 # Kurzbeschreibung ypid:
