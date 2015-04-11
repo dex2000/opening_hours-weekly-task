@@ -35,7 +35,7 @@ Um den Umgang mit den Öffnungszeiten zu vereinfachen, wurden eine Reihe von Wer
 
 * Alternativ zur [Öffnungszeiten-Karte] gibt es noch [viele weitere Karten](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Anwendungen), die Öffnungszeiten ebenfalls darstellen. Empfohlen sei hier [osm24.eu].
 
-* Zur täglichen Benutzung hat sich bei mir auf Android die Anwendung [OsmAnd](https://wiki.openstreetmap.org/wiki/DE:OsmAnd) bewehrt, die in der POI-Suche über die [Farbe der Richtungspfeile](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Osmand) darstellt, ob die Einrichtung gerade geöffnet hat. Zu beachten ist aber, dass die [Auswertung der Öffnungszeiten in OsmAnd](https://wiki.openstreetmap.org/wiki/Key:opening_hours#OsmAnd) noch relativ eingeschränkt ist. Elemente wie Feiertage können noch nicht ausgewertet werden. Ich arbeite langfristig an einer [Lösung](https://github.com/ypid/ComplexAlarm#why-was-this-application-written) für dieses Problem. OsmAnd kommt bei mir auch zum Einsatz, um in Geschäften Öffnungszeiten aufzuschreiben. Dazu drücke ich für circa drei Sekunden auf die Einrichtung auf der Karte, bis der Punkt ausgewählt ist (OSM-Bearbeitungs Plugin muss hierfür aktiviert sein). Anschließend tippe ich auf die Sprechblase und im Kontextmenu auf „POI einsenden“. Dann schreibe ich die Öffnungszeiten in das entsprechende Feld und drücke auf „Ändern“. Zuhause angekommen exportiere ich mir die POIs aus OsmAnd über die Einstellungen unter „OSM-Bearbeitung“, öffne die Datei auf dem Computer in JOSM und führe die Öffnungszeiten, mit dem, in der Regel schon vorhandenen Objekt in OSM zusammen.
+* Zur täglichen Benutzung hat sich bei mir auf Android die Anwendung [OsmAnd](https://wiki.openstreetmap.org/wiki/DE:OsmAnd) bewehrt, die in der POI-Suche über die [Farbe der Richtungspfeile](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Osmand) darstellt, ob die Einrichtung gerade geöffnet hat. Zu beachten ist aber, dass die [Auswertung der Öffnungszeiten in OsmAnd](https://wiki.openstreetmap.org/wiki/Key:opening_hours#OsmAnd) noch relativ eingeschränkt ist. Elemente wie Feiertage können noch nicht ausgewertet werden. Ich arbeite langfristig an einer [Lösung](https://github.com/ypid/ComplexAlarm#why-was-this-application-written) für dieses Problem. OsmAnd kommt bei mir auch zum Einsatz, um in Geschäften Öffnungszeiten aufzuschreiben. Dazu drücke ich für circa drei Sekunden auf die Einrichtung auf der Karte, bis der Punkt ausgewählt ist (OSM-Bearbeitungs Plugin muss hierfür aktiviert sein). Anschließend tippe ich auf die Sprechblase und im Kontextmenu auf „POI einsenden“. Dann schreibe ich die Öffnungszeiten in das entsprechende Feld und drücke auf „Ändern“. Zuhause angekommen exportiere ich mir die POIs aus OsmAnd über die Einstellungen unter „OSM-Bearbeitung“, öffne die Datei auf dem Computer in JOSM und führe die Öffnungszeiten mit den, in der Regel schon vorhandenen, Objekten in OSM zusammen.
 
 * Für JOSM gibt es das [OpeningHoursEditor Plugin](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpeningHoursEditor). Dieses unterstützt aber aktuell nur einfache Öffnungszeiten. Siehe [Forenbeitrag](http://forum.openstreetmap.org/viewtopic.php?pid=453663). Unabhängig davon wird jede Öffnungszeit vor dem hochladen von JOSM auf Basis des [Auswertewerkzeug] geprüft.
 
@@ -47,13 +47,11 @@ Um den Umgang mit den Öffnungszeiten zu vereinfachen, wurden eine Reihe von Wer
 
 ## Auswertung
 
-In der Vorbereitung zu dieser Wochenaufgabe wurde eine [statistische Auswertung][stats] geschaffen, die nicht nur die Anzahl der Öffnungszeiten auswertet, sondern auch, wie viele Werte maschinenlesbar sind und diese Werte als Graph darstellt. Die Daten für die weltweite Statistik stammen von [Taginfo](https://taginfo.openstreetmap.org). Um eine regionale Auswertung zu haben, wurde die Statistik noch um eine [Overpass API](https://wiki.openstreetmap.org/wiki/DE:Overpass_API) Anbindung erweitert.
-
-Die Statistik ist [hier][stats] zu finden. Die regionale Auswertung wird im Zeitraum der Wochenaufgabe stündlich aktualisiert.
+In der Vorbereitung zu dieser Wochenaufgabe wurde eine [statistische Auswertung][stats] geschaffen, die nicht nur die Anzahl der Öffnungszeiten auswertet, sondern auch, wie viele Werte maschinenlesbar sind und diese Werte als Graph darstellt. Die Daten für die weltweite Statistik stammen von [Taginfo](https://taginfo.openstreetmap.org). Um eine regionale Auswertung zu haben, wurde die Statistik noch um eine [Overpass API](https://wiki.openstreetmap.org/wiki/DE:Overpass_API) Anbindung erweitert. Die regionale Auswertung wird im Zeitraum der Wochenaufgabe stündlich aktualisiert.
 
 ## Ziel
 
-Am ersten Tag dieser Wochenaufgabe existierten weltweit [383 000][stats] Öffnungszeiten und es kommen täglich um die 400 neuen hinzu. Mit Eurer Hilfe dürften wir die 400 000er Marke bis zum 03 Mai sicher knacken können, was meint ihr? Zugleich gilt es, die Anzahl der maschinell auswertbaren Öffnungszeiten wieder zu steigern. Diese hat weltweit seit Beginn der statistischen Erhebungen kontinuierlich abnehmend von ursprünglich 97,2 % Auswertequote zu 96,8 %. Das ist zwar nicht viel, aber der Trend geht nun mal in die falsche Richtung ;) Als Grund für die fallende Qualität würde ich OSM Editoren nennen, die keine Unterstützung beim Eingeben von korrekten Öffnungszeiten geben.
+Am ersten Tag dieser Wochenaufgabe existierten weltweit [383 000][stats] Öffnungszeiten und es kommen täglich circa 400 hinzu. Mit Eurer Hilfe dürften wir die 400 000er Marke bis zum 03 Mai sicher knacken können, was meint ihr? Zugleich gilt es, die Anzahl der maschinell auswertbaren Öffnungszeiten wieder zu steigern. Diese hat weltweit seit Beginn der statistischen Erhebungen kontinuierlich abnehmend von ursprünglich 97,2 % Auswertequote auf 96,8 %. Das ist zwar nicht viel, aber der Trend geht nun mal in die falsche Richtung ;) Als Grund für die fallende Qualität würde ich OSM Editoren nennen, die keine Unterstützung beim Eingeben von korrekten Öffnungszeiten geben.
 
 ## Fragen und Probleme
 
@@ -71,11 +69,11 @@ Zu dieser Wochenaufgabe gibt es einen Thread im Forum und auf Talk-de, in dem ih
 
 Falls ihr auf Twitter über diese Wochenaufgabe berichtet, würde ich mich freuen, wenn ihr den Hashtag [#OSMWA1517](https://twitter.com/search?f=realtime&q=%23OSMWA1517) verwendet.
 
-## Weitergehende links
+## Weitergehende Links
 
-* [Erklärung des Schemas von Netzwolf](http://www.netzwolf.info/kartografie/osm/time_domain/erklaerung)
+* [Erklärung des Schemas von Netzwolf](http://www.netzwolf.info/kartografie/osm/time_domain/erklaerung) (die „offenen Punkte“ wurden bereits gelöst).
 * Die Entstehungsgeschichte des [Auswertewerkzeug] habe ich [im Forum](http://forum.openstreetmap.org/viewtopic.php?pid=369060#p369060) mal genauer beleuchtet.
-* [Mein Blog auf OSM](https://www.openstreetmap.org/user/ypid/diary)
+* [Mein Benutzer-Blog auf OSM](https://www.openstreetmap.org/user/ypid/diary)
 * [Die Auswertesoftware auf GitHub](https://github.com/ypid/opening_hours.js)
 
 [DE:Key:opening_hours]: https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours
