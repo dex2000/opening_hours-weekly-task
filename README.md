@@ -1,6 +1,5 @@
 # Wochenaufgabe: Öffnungszeiten
 
-## Bilder
 Mögliche Bilder (nach Präferenz geordnet):
 * https://secure.flickr.com/photos/b3d_/4754465604
 * https://secure.flickr.com/photos/gruenenrw/6765554553
