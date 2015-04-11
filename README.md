@@ -89,5 +89,3 @@ Falls ihr auf Twitter über diese Wochenaufgabe berichtet, würde ich mich freue
 ## FIXME:
 * "man" durch neutrale Form ersetzen?
 
-# Kurzbeschreibung ypid:
-Robin `ypid` Schneider ist aktiver Mapper seit 2013 und hat sein Hauptaugenmerk auf den Bereich Öffnungszeiten gelegt, denn er seit 2013 maßgeblich vortreibt.
