@@ -69,7 +69,7 @@ Für den Fall, dass ich den einen oder anderen, der noch nicht so viel mit Öffn
 
 Zu dieser Wochenaufgabe gibt es einen Thread im Forum und auf Talk-de, in dem ihr Fragen stellen könnt.
 
-Falls ihr auf Twitter über diese Wochenaufgabe berichtet, würde ich mich freuen, wenn ihr den Hashtag #OSMWA1517 verwendet.
+Falls ihr auf Twitter über diese Wochenaufgabe berichtet, würde ich mich freuen, wenn ihr den Hashtag [#OSMWA1517](https://twitter.com/search?f=realtime&q=%23OSMWA1517) verwendet.
 
 ## Weitergehende links
 
