@@ -4,7 +4,7 @@ Mögliche Bilder (nach Präferenz geordnet):
 * https://secure.flickr.com/photos/b3d_/4754465604
 * https://secure.flickr.com/photos/gruenenrw/6765554553
 
-Wer kennt es nicht: Man nimmt den langen Weg zum Lieblingsrestaurant auf sich, nur um auf verschlossene Türen zu stoßen, weil heute Ruhetag ist oder in selteneren Fällen, der Feiertag auf einen Samstag fällt oder Ähnliches. Um dieses Problem anzugehen, wurde in OpenStreetMap seit circa 2008 der Tag „[opening_hours][DE:Key:opening_hours]“ etabliert. Mit diesem Tag lassen sich in maschinenlesbarer Form Öffnungszeiten in OSM eintragen, sodass ein schneller Blick beispielsweise auf [osm24.eu] ausreicht, um festzustellen, wann eine Einrichtung geöffnet hat und wielange (dazu bitte die Legends auf [osm24.eu] unten rechts beachten). Diese Information hat sich sicher schon für viele als nützlich erwiesen und deshalb hat das Mapping Schema und die Anzahl der Öffnungszeiten in den letzten Jahren [große Schritte][stats] gemacht.
+Wer kennt es nicht: Man nimmt den langen Weg zum Lieblingsrestaurant auf sich, nur um auf verschlossene Türen zu stoßen, weil heute Ruhetag ist oder in selteneren Fällen, der Feiertag auf einen Samstag fällt oder Ähnliches. Um dieses Problem anzugehen, wurde in OpenStreetMap seit circa 2008 der Tag `[opening_hours][DE:Key:opening_hours]` etabliert. Mit diesem Tag lassen sich in maschinenlesbarer Form Öffnungszeiten in OSM eintragen, sodass ein schneller Blick beispielsweise auf [osm24.eu] ausreicht, um festzustellen, wann eine Einrichtung geöffnet hat und wielange (dazu bitte die Legends auf [osm24.eu] unten rechts beachten). Diese Information hat sich sicher schon für viele als nützlich erwiesen und deshalb hat das Mapping Schema und die Anzahl der Öffnungszeiten in den letzten Jahren [große Schritte][stats] gemacht.
 
 Die Bestrebung, die Realität so genau wie möglich in OSM abbilden zu wollen, trifft definitiv auch das Eintragen der Öffnungszeiten zu. So ist das Schema mittlerweile sehr ausgefeilt und es lässt sich quasi alles taggen. Dies geht von einfachen Wochenplänen über die Angabe von anderen Zeiten für den ersten Montag im Monat bis hin zum taggen von Feiertagen und Schulferien oder die Angabe der Öffnungszeiten in Abhängigkeit zum lokalen Sonnenaufgang. So kompliziert die Öffnungszeiten auch sein mögen, es gibt ziemlich sicher ein Tagging Schema dafür :)
 
@@ -59,7 +59,7 @@ Am ersten Tag dieser Wochenaufgabe existierten weltweit [383 000][stats] Öffnun
 
 Für den Fall, dass ich den einen oder anderen, der noch nicht so viel mit Öffnungszeiten zu tun hatte, mit diesem Beitrag etwas erschlagen habe, möchte ich mich entschuldigen :) Bei Fragen würde ich folgendes Vorgehen empfehlen:
 
-* [Wiki Seite: DE:Key:opening_hours][DE:Key:opening_hours].
+* [Wiki Seite zum Tag `opening_hours`][DE:Key:opening_hours].
 * Testen mit dem [Auswertewerkzeug].
 * [Talk Seite im Wiki (auf Englisch)](https://wiki.openstreetmap.org/wiki/Talk:Key:opening_hours).
 * Suche im [Forum] und in der [tagging mailing Liste](https://wiki.openstreetmap.org/wiki/Mailing_lists).
@@ -88,4 +88,3 @@ Falls ihr auf Twitter über diese Wochenaufgabe berichtet, würde ich mich freue
 
 ## FIXME:
 * "man" durch neutrale Form ersetzen?
-
