@@ -19,7 +19,7 @@ Bedeutung: Geöffnet Montag bis Samstag von 10 bis 20 Uhr, außer dienstags.
 
 Wie schon geschrieben wurde in den letzten Jahren ein weitreichendes Schema entwickelt, um Öffnungszeiten einzutragen und, was noch wichtiger ist, diese auch sinnvoll auswerten zu können. Denn was nützt es, wenn die eingetragenen Öffnungszeiten nicht auswertbar sind? Das lässt sich mit anderen Tags Vergleich. Hier sollte ebenfalls auf ein einheitliches Schema geachtet werden, um mit den Daten später etwas anfangen zu können (beispielsweise eine Karte zu generieren). Es wurde versucht, das Schema möglichst einfach und lesbar zu halten, zugleich muss ich aber zugeben, dass es eine gewisse Komplexität erreicht hat und auch von erfahrenen Mappern teils falsch verstanden wird. Um also denn oben genanten Ruhetag oder Feiertag richtig einzutragen, ist etwas Übung notwendig. Für den konkreten Aufbau des Schemas verweise ich auf die [Wiki Seite](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Beispiele), auf der ich und andere Mapper das Schema beschrieben haben. Für die sehr fortgeschrittenen Mapper gibt es auch noch eine [formale Spezifikation](https://wiki.openstreetmap.org/w/index.php?title=Key:opening_hours/specification) in der [Netzwolf](http://www.netzwolf.info/) und [ich] die „Sprache“ für die Öffnungszeiten spezifiziert haben beziehungsweise dies immer noch tun.
 
-# Kurzum, worauf ist zu achten?
+## Kurzum, worauf ist zu achten?
 
 * Bitte nur Öffnungszeiten hochladen, die [maschinenlesbar][Auswertewerkzeug] sind.
 * Ferien werden nicht automatisch an die Öffnungszeiten gehängt. Diese müssen also explizit angegeben werden. Siehe im [Wiki](https://wiki.openstreetmap.org/wiki/DE:Key:opening_hours#Elemente).
